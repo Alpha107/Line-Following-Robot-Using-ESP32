@@ -29,11 +29,15 @@ This project introduces concepts such as sensor interfacing, closed-loop control
 ## System Diagrams
 
 ### Block Diagram
-![Block Diagram](images/block_diagram.png)  
+
+ <img width="750" height="689" alt="image" src="https://github.com/user-attachments/assets/86602e4a-c056-419f-9115-720ef532dbb1" />
+
 *IR sensors detect the line and send signals to the ESP32. The ESP32 processes the signals and controls the motor driver to keep the robot aligned.*
 
 ### Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)  
+
+ <img width="488" height="432" alt="esp32-suiveur-ligne" src="https://github.com/user-attachments/assets/00e94517-d402-4420-b545-d75e6def732e" />
+
 *The IR sensors are connected to ESP32 GPIO pins. The motor driver receives PWM and direction signals from ESP32 to control the motors. Batteries power both the controller and motors.*
 
 ---
@@ -60,9 +64,3 @@ This project introduces concepts such as sensor interfacing, closed-loop control
 ## Conclusion
 The Line Following Robot using ESP32 successfully demonstrates autonomous navigation based on sensor feedback. The project enhanced skills in real-time decision making, sensor integration, and motor control. Despite challenges in sensor calibration and motor synchronization, the robot reliably followed the designated path, providing a strong foundation for more advanced autonomous systems.
 
----
-
-## Images
-*(Replace the placeholders with your actual images)*  
-![Line Follower Front](images/line_follower_front.png)  
-![Line Follower Top](images/line_follower_top.png)
